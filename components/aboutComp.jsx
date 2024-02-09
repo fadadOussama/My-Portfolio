@@ -5,7 +5,7 @@ import dayjs from "dayjs";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import aboutMe from "../public/about.webp";
+import about from "../public/about.jpg";
 
 export default function AboutComp() {
   const [currentYear, setCurrentYear] = useState("2023");
@@ -45,8 +45,8 @@ export default function AboutComp() {
           <p className="text-accent text-sm">Intro</p>
         </div>
 
-        <div className="w-full relative h-[360px]">
-          <Image src={aboutMe} alt="about" placeholder="blur" fill priority className="rounded-md object-cover object-center" />
+        <div className="w-full relative mb:h-[600px] h-[400px]">
+          <Image src={about} alt="about" placeholder="blur" fill priority className="rounded-md object-cover object-center" />
         </div>
 
         <div className="flex flex-nowrap flex-col gap-y-6 justify-center text-base">

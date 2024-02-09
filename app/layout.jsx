@@ -6,7 +6,7 @@ import Sidebar from "@/components/sidebar";
 
 export const metadata = {
   title: "Fadad Oussama - Frontend Developer",
-  description: "Hi I'm Oussama welcome to my portfolio! I'm a frontend developer with a particular focus on the Next.js/React stack",
+  description: "Hi I'm Oussama welcome to my portfolio! I'm a frontend developer with a particular focus on the Next.js/React stack.",
 };
 
 export default function RootLayout({ children }) {

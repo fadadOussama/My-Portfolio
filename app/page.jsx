@@ -9,7 +9,7 @@ import {
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import profile from "../public/profile.jpg";
+import profile from "../public/profile.png";
 import { motion } from "framer-motion";
 import { ArrowRight, Check, Copy, Github, Instagram, Linkedin, Mail, MessagesSquare } from "lucide-react";
 import Link from "next/link";
@@ -105,7 +105,11 @@ export default function HomePage() {
             <Github size={24} strokeWidth={1.25} />
           </a>
 
-          <a href="/" target="_blank" className="cursor-pointer text-primary hover:text-textColor active:scale-125 transition-all duration-300">
+          <a
+            href="https://www.linkedin.com/in/fadad-oussama-0b3a492a8"
+            target="_blank"
+            className="cursor-pointer text-primary hover:text-textColor active:scale-125 transition-all duration-300"
+          >
             <Linkedin size={24} strokeWidth={1.25} />
           </a>
 
@@ -592,7 +596,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <Link href="/" className="w-full group mt-2">
+        <Link href="https://bento.me/fadadoussama" target="_blank" className="w-full group mt-2">
           <Button variant="default" className="w-full gap-x-2">
             <span className="">Bento</span>
             <div className="text-accent transform group-hover:-rotate-45 group-hover:text-textColor transition-all duration-300">
