@@ -45,8 +45,8 @@ export default function AboutComp() {
           <p className="text-accent text-sm">Intro</p>
         </div>
 
-        <div className="w-full relative h-[600px]">
-          <Image src={about} alt="about" placeholder="blur" fill priority className="rounded-md object-cover object-center" />
+        <div className="w-full relative sm:h-[600px] h-[400px]">
+          <Image src={about} alt="about" placeholder="blur" fill priority className="rounded-md object-cover object-top" />
         </div>
 
         <div className="flex flex-nowrap flex-col gap-y-6 justify-center text-base">
