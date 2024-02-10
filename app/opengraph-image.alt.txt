@@ -1,0 +1,2 @@
+Fadad Oussama - Frontend Developer
+Hi I'm Oussama welcome to my portfolio! I'm a frontend developer with a particular focus on the Next.js/React stack.
