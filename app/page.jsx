@@ -106,7 +106,7 @@ export default function HomePage() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/fadad-oussama-0b3a492a8"
+            href="https://www.linkedin.com/in/fadad-oussama"
             target="_blank"
             className="cursor-pointer text-primary hover:text-textColor active:scale-125 transition-all duration-300"
           >
