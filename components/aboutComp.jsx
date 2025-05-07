@@ -51,7 +51,7 @@ export default function AboutComp() {
 
         <div className="flex flex-nowrap flex-col gap-y-6 justify-center text-base">
           <p>
-            Greetings 👋🏻 I&apos;m Fadad Oussama, a 22-year-old self-taught developer based in the lively city of Casablanca, Morocco{" "}
+            Greetings 👋🏻 I&apos;m Fadad Oussama, a 24-year-old self-taught developer based in the lively city of Casablanca, Morocco{" "}
             <Image src="/flag.png" alt="flag" width={300} height={300} className="inline-block h-[18px] w-[18px]" />. My journey into the realm of
             programming began with a two years of formal education at Ista 🏫, but the real growth in my experience and skills as a developer began
             when I finished my two years at Ista and decided to embark on the path of self learning, this decision made me the developer I always
